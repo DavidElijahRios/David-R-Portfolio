@@ -1,0 +1,87 @@
+
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #FDF8F5;
+  color: #4F4846;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* This is styling for header section*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(57, 64, 69);
+    line-height: 5px;
+    
+}
+
+
+h1 {
+    color: rgb(57, 64, 69);
+    background-color: aquamarine;
+    padding: 20px;
+    padding-left: 40px;
+    
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+
+li {
+    display: inline-flex;
+}
+
+a.links {
+    padding: 12px;
+}
+
+a.links:link {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: aquamarine;
+    color:aquamarine;
+
+}
+
+a.links:visited {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: aquamarine;
+    color:aquamarine;
+}
+
+a.links:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: rgb(240, 234, 112);
+    color:rgb(240, 234, 112);
+    cursor: pointer;
+}
+
+a.links:active {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: blueviolet;
+    color: blueviolet;
+}
+
+/* This is styling for h2 tag only */
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 35px;
+    margin-left: 700px;
+    margin-right: 50px;
+    background-color: aquamarine;
+    
+}
+
+/*
