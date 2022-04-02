@@ -84,4 +84,25 @@ h2 {
     
 }
 
-/*
+/* this is styling for about me section */
+
+.section-container {
+       Display: flex;
+       flex-direction: column;
+       column-gap: 50px;
+}
+
+.content2 {
+    text-align: center;
+    float: right;
+
+}
+
+/*This is styling for h tags and main content*/
+
+/*h3 {
+   float: left;
+   margin: 25px;
+
+}
+*/
