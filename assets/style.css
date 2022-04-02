@@ -84,6 +84,11 @@ h2 {
     
 }
 
+.containerheader2 {
+    padding: 20px;
+    background-image: url('https://media.istockphoto.com/vectors/blue-and-gold-abstract-minimal-geometric-background-abstract-hitech-vector-id1276890189?k=20&m=1276890189&s=612x612&w=0&h=jLZGeqUcsqw6t3xPXtsGJ8j094aAWmhGOaj7Kvm9p8k=');
+}
+
 /* this is styling for about me section */
 
 .section-container {
@@ -98,11 +103,18 @@ h2 {
 
 }
 
-/*This is styling for h tags and main content*/
+/* this is styling for contact me links */
+ .contactmelinks {
+     display: flex;
+     justify-content: flex-end;
+     justify-content: space-evenly;
+ }
 
-/*h3 {
-   float: left;
-   margin: 25px;
+/* for Media Queries */
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 76px) {
 
 }
-*/
