@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
     <title>David R Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon_io (1)/favicon-16x16.png">
 </head>
 <body>
     <header>
         <h1>David Elijah Rios</h1>
-        <nav class="container1">
+        <nav class="navLinks">
             <ul> 
                 <li><a class="links" href="#aboutme">About Me</a></li>
                 <li><a class="links" href="#work">Work</a></li>
@@ -19,13 +20,13 @@
             </ul>
         </nav>
      </header>
-    <div class="containerheader2">
-      <h2>Cool subtitle here!</h2>
+    <div class="imageHeader">
+      <!-- <h2>Cool subtitle here!</h2> -->
       </div>
     <!--This section is for the About me Section--> 
-    <section class="section-container">
+    <section class="aboutMe-container">
         <h3 id="aboutme">About Me</h3> 
-        <article class="content2">
+        <article class="aboutMecontent" id="contentx">
             <p> Name is David Elijah Rios, I am newly trained Software Developer ready to take my skills and passion for design and functionality to complete 
                 any client request and challenge given to me. I have the strong belief that you are never "done" learning, and with that mindset, I wish to use 
                 what experience and skills I have acquired, to strengthen a company but also, continue to refine my skills and knowledge. </p>
@@ -37,26 +38,30 @@
         </article>
     </section>
      <!--This section is for the Work Section-->
-     <section class="section-container">
+    <section>
          <h3 id="work">Work</h3>
-         <article class="content2">
-             <h4>Project 1</h4>
-              <img src="https://media.istockphoto.com/photos/smart-city-and-abstract-dot-point-connect-with-gradient-line-picture-id1173279965?k=20&m=1173279965&s=612x612&w=0&h=cbURB6PN1LywKuHk0qPgndu-YY5y0FCs93FthtTIsG0=" alt="project 1 holder">
-               <p>MERN Stack</p>
-         </article>
-         <article class="content2">
-             <h4>Project 2</h4>
-              <img src="https://media.istockphoto.com/vectors/abstract-plexus-background-with-connecting-dots-and-lines-global-vector-id1165864106?k=20&m=1165864106&s=612x612&w=0&h=EHlx0jmv1l5fIPx0dtFiDnDyO2lLRoj8Df1XpNXbTbg=" alt="project 2 place holder">
-               <p>Node/ioT</p>
-         </article>
-         <article class="content2">
-             <h4>Project 3</h4>
-             <p>React/JavaScript/CSS</p>
-         </article>
+        <div class="project-container">
+          <article id="project1">
+              <h4>Great Date</h4>
+              <!-- Need to create a link to page when a user clicks on image or link -->
+              <img class="great-date" src="./Images/1.png" alt="project 1 great-date">
+                <p> JavaScript </p>
+          </article>
+          <article id="project2">
+              <h4>Project 2</h4>
+               <img src="https://media.istockphoto.com/vectors/abstract-plexus-background-with-connecting-dots-and-lines-global-vector-id1165864106?k=20&m=1165864106&s=612x612&w=0&h=EHlx0jmv1l5fIPx0dtFiDnDyO2lLRoj8Df1XpNXbTbg=" alt="project 2 place holder">
+                <p>Node/ioT</p>
+          </article>
+          <article id="project3">
+              <h4>Project 3</h4>
+              <img src="https://media.istockphoto.com/photos/smart-city-and-abstract-dot-point-connect-with-gradient-line-picture-id1173279965?k=20&m=1173279965&s=612x612&w=0&h=cbURB6PN1LywKuHk0qPgndu-YY5y0FCs93FthtTIsG0=" alt="project 3 holder">
+              <p>React/JavaScript/CSS</p>
+          </article>
+        </div>
 
-    </section>
+      </section>
      <!--This section is for the contact me Section-->
-     <section class="section-container">
+     <section>
          <h3 id="contactme">Contact Me</h3>
          <nav class="conatiner2">
              <ul class="contactmelinks">
@@ -69,6 +74,6 @@
          </nav>
 
     </section> 
-    <footer>©RiosTech</footer>
+    <footer>RiosTech©</footer>
 </body>
 </html>

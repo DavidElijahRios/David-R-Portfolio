@@ -1,9 +1,12 @@
+/* Colors
+#5680E9, #84CEEB, #5AB9EA, #c1c8e4, #8860D0; */
+
 
 body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #FDF8F5;
+  background-color: #282828;
   color: #4F4846;
   padding: 0px;
   margin: 0px;
@@ -14,21 +17,21 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(57, 64, 69);
+    background-color: #282828;
     line-height: 5px;
     
 }
 
 
 h1 {
-    color: rgb(57, 64, 69);
-    background-color: aquamarine;
+    color: white;
+    background-color: #3500d3;
     padding: 20px;
     padding-left: 40px;
     
 }
 
-.container1 {
+.navLinks {
     display: flex;
     align-items: center;
 }
@@ -45,63 +48,88 @@ a.links {
 a.links:link {
     text-decoration: underline;
     text-decoration-thickness: 5px;
-    text-decoration-color: aquamarine;
-    color:aquamarine;
+    text-decoration-color: #3500d3;
+    color: white;
 
 }
 
 a.links:visited {
     text-decoration: underline;
     text-decoration-thickness: 5px;
-    text-decoration-color: aquamarine;
-    color:aquamarine;
+    text-decoration-color: #3500d3;
+    color: white;
 }
 
 a.links:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: rgb(240, 234, 112);
-    color:rgb(240, 234, 112);
+    text-decoration-color: #3500D3;
+    color: #3500D3;
     cursor: pointer;
-}
-
-a.links:active {
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: blueviolet;
-    color: blueviolet;
 }
 
 /* This is styling for h2 tag only */
 
 h2 {
-    display: flex;
-    justify-content: flex-end;
-    padding: 35px;
-    margin-left: 700px;
-    margin-right: 50px;
+    /*display: flex;
+    justify-content: flex-end; */
+    /* padding: 35px; */
+    /* margin-left: 700px;
+    margin-right: 50px; */
+    width: max-content;
+    margin: 0px 66%;
     background-color: aquamarine;
     
 }
 
-.containerheader2 {
-    padding: 20px;
+.imageHeader {
+    padding: 80px;
+    /* height: 120px; */
     background-image: url('https://media.istockphoto.com/vectors/blue-and-gold-abstract-minimal-geometric-background-abstract-hitech-vector-id1276890189?k=20&m=1276890189&s=612x612&w=0&h=jLZGeqUcsqw6t3xPXtsGJ8j094aAWmhGOaj7Kvm9p8k=');
 }
 
+
 /* this is styling for about me section */
-
-.section-container {
+.aboutMe-container {
        Display: flex;
-       flex-direction: column;
-       column-gap: 50px;
+       justify-content: space-between;
+       align-items: center;
 }
 
-.content2 {
+#aboutme {
+    margin-left: 100px;
+    margin-bottom: 500px;
+    font-size: 50px;
+}
+
+.aboutMecontent {
     text-align: center;
-    float: right;
+    /* float: right; */
 
 }
+#contentx p {
+    font-size: 25px;
+    width: 1000px;
+    margin-right: 500px;
+}
+
+
+
+/* This is styling for work section */
+#work {
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
 
 /* this is styling for contact me links */
  .contactmelinks {
@@ -109,6 +137,12 @@ h2 {
      justify-content: flex-end;
      justify-content: space-evenly;
  }
+
+/* Styling for contact me */
+
+
+
+
 
 /* for Media Queries */
 @media screen and (max-width: 992px) {
