@@ -10,29 +10,85 @@ body {
   margin: 0px;
 }
 
+
+
+/* Side navigation  */
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #66FCF1;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* Menu button styling */
+  .btn {
+    position: fixed;
+    top: 5px;
+    background-color: #66FCF1; 
+    border: solid; 
+    color: #282828; 
+    padding: 24px 28px; 
+    font-size: 25px; 
+    cursor: pointer; 
+    margin: 4px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #282828;
+    color: #66FCF1;
+  }
+
+
+
+
 /* This is styling for header section*/
-header {
+/* header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: #282828;
-    line-height: 5px;
+    line-height: 25px;
     
-}
+} */
 
-
-h1 {
-    color: #66FCF1;
-    background-color: #282828;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 0px;
-    
-}
-
-.navLinks {
-    display: flex;
-    align-items: center;
+/* Image styling */
+img {
+    width: 334px;
+    height: 398px;
+    border-radius: 15px;
+    position: relative;
+    left: 150px;
 }
 
 
@@ -67,19 +123,24 @@ a.links:hover {
     cursor: pointer;
 }
 
+/* Hero page styling */
+.container {
+    margin: 35%;
+}
+.jumbotron-fluid {
+    position: relative;
+    right: 325px;
+    bottom: 275px;
+    color: #66FCF1;
+}
+
+
 .imageHeader {
     padding: 80px;
     /* height: 120px; */
     background-image: url('https://media.istockphoto.com/vectors/blue-and-gold-abstract-minimal-geometric-background-abstract-hitech-vector-id1276890189?k=20&m=1276890189&s=612x612&w=0&h=jLZGeqUcsqw6t3xPXtsGJ8j094aAWmhGOaj7Kvm9p8k=');
 }
 
-.vertical {
-    border-left: 6px solid #66FCF1;
-    height: 82%;
-    position:absolute;
-    left: 21%;
-    margin-top: 20px;
-}
 
 
 /* this is styling for about me section */
@@ -87,19 +148,23 @@ a.links:hover {
        Display: flex;
        justify-content: space-between;
        align-items: center;
+       padding-bottom: 650px
 }
 
 #aboutme {
-    margin-left: 100px;
-    margin-bottom: 500px;
-    font-size: 50px;
+    /* margin-left: 100px;
+    margin-bottom: 500px; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 250px;
+    font-size: 75px;
     color: #66FCF1;
 }
 
 #contentx p {
     font-size: 25px;
     width: 924px;
-    margin-right: 300px;
+    margin-right: 50px;
     text-align: center;
     color: white;
 }
@@ -108,9 +173,19 @@ a.links:hover {
 
 /* This is styling for work section */
 #work {
-    margin-left: 100px;
-    font-size: 50px;
+    position: relative;
+    top: 100px;
+    margin-left: 200px;
+    font-size: 75px;
     color: #66FCF1;
+}
+
+.vertical {
+    border-left: 6px solid #66FCF1;
+    height: 40%;
+    position:absolute;
+    left: 35%;
+    margin-top: 20px;
 }
 
 .project-container {
@@ -132,9 +207,12 @@ article {
 
 /* this is styling for contact me section and contact me links */
 #contactme {
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
     font-size: 50px;
     color: #66FCF1;
+    padding-top: 650px;
+    padding-bottom: 200px;
 }
  
 .contactmelinks {
@@ -144,10 +222,21 @@ article {
      color: #66FCF1;
  }
 
+ /* This is styling for Resume section */
+#resume {
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+}
+
+ 
 
  /* Styling for footer */
  footer {
-     color: #66FCF1;
+    display:flex;
+    justify-content: center; 
+    color: #66FCF1;
+    padding-top: 250px;
  }
 
 

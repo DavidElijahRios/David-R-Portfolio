@@ -5,30 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>David R Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./Images/favicon_io (1)/favicon-16x16.png">
 </head>
 <body>
     <header>
-        <h1>David Elijah Rios</h1>
-        <nav class="navLinks">
-            <ul> 
-                <li><a class="links" href="#aboutme">About Me</a></li>
-                <li><a class="links" href="#work">Work</a></li>
-                <li><a class="links" href="#contactme">Contact Me</a></li>
-                <li><a class="links" href="#resume">Resume</a></li> 
-            </ul>
-        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#resume">Resume</a>
+            <a href="#contactme">Contact Me</a>
+          </div>
+
+          <button class="btn" onclick="openNav()"><i class="fa fa-bars"></i></button>
+    
      </header>
-    <div class="imageHeader">
+     <!-- Back to top of page button -->
+     <!-- Hero page -->
+     <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Hi, I am David Elijah Rios</h1>
+          <p class="lead">I am a Software Developer focused on building and contributing to projects that provide a digitally exceptional experience.</p>
+        </div>
       </div>
+      
     <!--This section is for the About me Section--> 
-    <div class="vertical"></div> 
+   
+    <h3 id="aboutme">About Me</h3>
     <section class="aboutMe-container">
-        <h3 id="aboutme">About Me</h3>
+        <div class="profileImage">
+            <img src="./Images/IMG_5157 3.JPG" alt="Profile Picture">
+          </div>
         <article class="aboutMecontent" id="contentx">
-            <p> Name is David Elijah Rios, I am newly trained Software Developer ready to take my skills and passion for design and functionality to complete 
+            <p> Name is David Elijah Rios, I am a Software Developer ready to take my skills and passion for design and functionality to complete 
                 any client request and challenge given to me. I have the strong belief that you are never "done" learning, and with that mindset, I wish to use 
                 what experience and skills I have acquired, to strengthen a company but also, continue to refine my skills and knowledge. </p>
 
@@ -42,6 +54,7 @@
      <!--This section is for the Work Section-->
     <section>
          <h3 id="work">Work</h3>
+          <div class="vertical"></div> 
         <div class="project-container">
           <article id="project1">
               <h4 class="title">Great Date</h4>
@@ -65,6 +78,12 @@
         </div>
 
       </section>
+
+      <section class="resume">
+        <h3 id="resume">Resume</h3>
+        <!-- Need to create a download resume link for easy view and download -->
+        <a href="./Resume/Resume.pdf" class="downloadBtn" download><button>Download Resume</button></a>
+    </section>
      <!--This section is for the contact me Section-->
      <section>
          <h3 id="contactme">Contact Me</h3>
@@ -74,12 +93,12 @@
                  <li>Riosdavid16@gmail.com</li>
                  <li><a class="links" href="https://github.com/DavidElijahRios">GitHub</a></li>
                  <li><a class="links" href="https://linkedin.com/in/david-rios-bab769230">LinkedIn</a></li>
-                 <li>Apple Music</li>
              </ul>
          </nav>
 
     </section> 
     <footer>RiosTech©</footer>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
  <script src="./assets/script.js"></script>   
 </body>
 </html>

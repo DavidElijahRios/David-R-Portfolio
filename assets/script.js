@@ -3,6 +3,7 @@
 const greatDate = document.querySelector(".greatDate");
 const workDayPlanner = document.querySelector(".workDayPlanner");
 const weatherDash = document.querySelector(".weatherDash");
+const loading = document.querySelector('body');
 
 
 // Event listeners for user button clicks to go to projects/websites
@@ -17,3 +18,17 @@ workDayPlanner.addEventListener("click", function() {
 weatherDash.addEventListener("click", function() {
     location.href = "https://davidelijahrios.github.io/Weather-Dashboard/";
 });
+
+// function for loading screen for portfolio page
+
+// function for toggler navbar
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+//timer animation 
