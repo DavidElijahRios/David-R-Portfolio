@@ -83,12 +83,13 @@ body {
 } */
 
 /* Image styling */
-img {
+.profilePic {
     width: 334px;
     height: 398px;
     border-radius: 15px;
     position: relative;
     left: 150px;
+    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
 }
 
 
@@ -118,9 +119,10 @@ a.links:visited {
 a.links:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-decoration-color: #3500D3;
-    color: #3500D3;
+    text-decoration-color: #66FCF1;
+    color: #66FCF1;
     cursor: pointer;
+    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
 }
 
 /* Hero page styling */
@@ -182,7 +184,7 @@ a.links:hover {
 
 .vertical {
     border-left: 6px solid #66FCF1;
-    height: 40%;
+    height: 32%;
     position:absolute;
     left: 35%;
     margin-top: 20px;
@@ -197,13 +199,82 @@ a.links:hover {
 
 .title {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
+    padding: 25px;
+}
+/* separation of projects */
+article {
+    padding: 25px;
 }
 
-article {
-    padding: 40px;
+button {
+    background-color: #282828;
+    color: #66FCF1;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+ button:hover {
+    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
+    border: 3px solid #66FCF1;
+ }
+
+ /* positioning of project buttons */
+ .greatDate {
+     position: relative;
+     left: 600px;
+     bottom: 325px;
+     padding: 25px;
+ }
+
+ .workDayPlanner {
+    position: relative;
+    left: 600px;
+    bottom: 325px;
+    padding: 25px;
+ }
+
+ .weatherDash {
+    position: relative;
+    left: 600px;
+    bottom: 325px;
+    padding: 25px;
+ } 
+  
+ .techParagraph {
+     padding: 40px;
+     position: relative;
+     left: 230px;
+     color: white;
+ }
+
+
+ /* Styling for project pictures */
+ .great-date {
+    width: 334px;
+    height: 398px;
+    border-radius: 15px;
+    position: relative;
+    left: 150px;
+ }
+
+ .work-day {
+    width: 334px;
+    height: 398px;
+    border-radius: 15px;
+    position: relative;
+    left: 150px;
+ }
+
+ .weather-dash {
+    width: 334px;
+    height: 398px;
+    border-radius: 15px;
+    position: relative;
+    left: 150px;
+ }
+
 
 /* this is styling for contact me section and contact me links */
 #contactme {
@@ -222,11 +293,24 @@ article {
      color: #66FCF1;
  }
 
+
+
  /* This is styling for Resume section */
 #resume {
     display: flex;
     justify-content: center;
     padding-top: 450px;
+    color: #66FCF1;
+    font-size: 50px;
+}
+
+.resume-download {
+    position: relative;
+    left: 661px;
+    top: 150px;
+    padding: 50px;
+    font-size: 30px;
+
 }
 
  
@@ -243,11 +327,93 @@ article {
 
 
 
+
+
+
+
 /* for Media Queries */
-@media screen and (max-width: 992px) {
-    
+@media screen and (max-width: 428px) {
+.btn {
+   padding: 36px 38px;
 }
+
+.container {
+    position: relative;
+    top: 250px;
+    left: 350px;
+    padding-top: 150px;
+}
+
+.display-4 {
+    font-size: 65px;
+    width: 900px;
+    position: relative;
+    right: 50px;
+    margin-top: 150px;
+}
+
+.lead {
+  font-size: 35px;
+  width: 700px;
+  position: relative;
+  right: 20px;
+  margin: 15px
+}
+
+ #aboutme {
+     font-size: 60px;
+     padding-top: 200px;
+     position: relative;
+     left: 250px
+ }
+ 
+  .profilePic {
+      position: relative;
+      bottom: 100px;
+      left: 250px;
+      margin-bottom: 150px;
+  }
+ 
+  #contentx p {
+      position: relative;
+      right: 300px;
+      top: 400px;
+      font-size: 20px;
+      width: 438px;
+  }
+
+  .vertical {
+      display: none;
+  }
+
+  #work {
+      position: relative;
+      top: 100px;
+      font-size: 40px;
+  }
+
+  .title {
+      position: relative;
+      top: 300px;
+  }
+
+  .great-date {
+    width: 234px;
+    height: 298px;
+    border-radius: 15px;
+    position: relative;
+    left: 75px;
+ }
+  }
+
+  /* .work-day {
+
+  }
+
+  .weather-dash {
+
+  }
 
 @media screen and (max-width: 76px) {
 
-}
+} */
