@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/style.css">
@@ -25,21 +25,21 @@
      </header>
      <!-- Back to top of page button -->
      <!-- Hero page -->
-     <div class="jumbotron jumbotron-fluid">
+     <!-- <div class="jumbotron jumbotron-fluid"> -->
         <div class="container">
           <h1 class="display-4">Hi, I am David Elijah Rios</h1>
           <p class="lead">I am a Software Developer focused on building and contributing to projects that provide a digitally exceptional experience.</p>
         </div>
-      </div>
+      <!-- </div> -->
       
     <!--This section is for the About me Section--> 
    
     <h3 id="aboutme">About Me</h3>
     <section class="aboutMe-container">
-        <div class="profileImage">
+        <!-- <div class="profileImage"> -->
             <img class="profilePic" src="./Images/IMG_5157 3.JPG" alt="Profile Picture">
-          </div>
-        <article class="aboutMecontent" id="contentx">
+          
+         <article class="aboutMecontent" id="contentx">
             <p> Name is David Elijah Rios, I am a Software Developer ready to take my skills and passion for design and functionality to complete 
                 any client request and challenge given to me. I have the strong belief that you are never "done" learning, and with that mindset, I wish to use 
                 what experience and skills I have acquired, to strengthen a company but also, continue to refine my skills and knowledge. </p>
@@ -48,32 +48,32 @@
                 However, When I am not developing, I enjoying playing the Bass Guitar and going out and eating delicious foods and trying new food places or 
                 revisiting my favorite places.
                  </p>
-        </article>
+          </article>
+       <!-- </div> -->
     </section>
 
      <!--This section is for the Work Section-->
     <section>
          <h3 id="work">Work</h3>
-          <div class="vertical"></div> 
         <div class="project-container">
           <article id="project1">
               <h4 class="title">Great Date</h4>
               <!-- Need to create a link to page when a user clicks on image or link -->
-              <img class="great-date" src="./Images/1.png" alt="project 1 great-date">
+              <img class="great-date" src="/Images/landing-form.png" alt="project 1 great-date">
                 <p class="techParagraph"> JavaScript/AJAX</p>
-                <button class="greatDate" type="button">Plan your date!</button>
+                <button class="greatDate" type="button">Visit Site!</button>
           </article>
           <article id="project2">
-              <h4 class="title">Work Day Planner</h4>
-               <img class="work-day" src="https://media.istockphoto.com/vectors/abstract-plexus-background-with-connecting-dots-and-lines-global-vector-id1165864106?k=20&m=1165864106&s=612x612&w=0&h=EHlx0jmv1l5fIPx0dtFiDnDyO2lLRoj8Df1XpNXbTbg=" alt="project 2 place holder">
-                <p class="techParagraph">JavaScript/Jquery</p>
-                <button class="workDayPlanner" type="button">Get Organized!</button>
+              <h4 class="title">Pet Connect</h4>
+               <img class="petConnect" src="/Images/landing-screenshot.png" alt="project 2 place holder">
+                <p class="techParagraph">JavaScript/express.js/MYSQL</p>
+                <button class="workDayPlanner" type="button">Visit Site!</button>
           </article>
           <article id="project3">
               <h4 class="title">Weather Dashboard</h4>
               <img class="weather-dash" src="https://media.istockphoto.com/photos/smart-city-and-abstract-dot-point-connect-with-gradient-line-picture-id1173279965?k=20&m=1173279965&s=612x612&w=0&h=cbURB6PN1LywKuHk0qPgndu-YY5y0FCs93FthtTIsG0=" alt="project 3 holder">
               <p class="techParagraph">JavaScript/AJAX</p>
-              <button class="weatherDash" type="button">Glance your city's forecast!</button>
+              <button class="weatherDash" type="button">Visit Site!</button>
           </article>
         </div>
 
@@ -83,21 +83,22 @@
         <h3 id="resume">Resume</h3>
         <!-- Need to create a download resume link for easy view and download -->
         <a href="./Resume/Resume.pdf" class="downloadBtn" download><button class="resume-download">Download Resume</button></a>
-    </section>
+        <a href="./Resume/Resume.pdf" target="_blank" class="downloadBtn"><button class="resume-download">Resume</button></a>
+      </section>
      <!--This section is for the contact me Section-->
      <section>
          <h3 id="contactme">Contact Me</h3>
          <nav class="conatiner2">
              <ul class="contactmelinks">
                  <li>619.820.0130</li>
-                 <li>Riosdavid16@gmail.com</li>
-                 <li><a class="links" href="https://github.com/DavidElijahRios">GitHub</a></li>
-                 <li><a class="links" href="https://linkedin.com/in/david-rios-bab769230">LinkedIn</a></li>
+                 <li><a class ="links" href= "mailto: Riosdavid16@gmail.com"><img src="/Images/6214507_email_envelope_gmail_letter_logo_icon.png"></a></li>
+                 <li><a class="links" href="https://github.com/DavidElijahRios" target="_blank"><img src="/Images/394189_code_github_repository_icon.png"></a></li>
+                 <li><a class="links" href="https://linkedin.com/in/david-rios-bab769230" target="_blank"><img src="/Images/386655_linkedin_linked in_icon.png"></a></li>
              </ul>
          </nav>
 
     </section> 
-    <footer>RiosTech©</footer>
+    <footer>designed & built by RiosTech©</footer>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
  <script src="./assets/script.js"></script>   
 </body>

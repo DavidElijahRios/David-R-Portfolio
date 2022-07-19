@@ -58,7 +58,7 @@ body {
     border: solid; 
     color: #282828; 
     padding: 24px 28px; 
-    font-size: 25px; 
+    font-size: 50px; 
     cursor: pointer; 
     margin: 4px;
   }
@@ -82,15 +82,6 @@ body {
     
 } */
 
-/* Image styling */
-.profilePic {
-    width: 334px;
-    height: 398px;
-    border-radius: 15px;
-    position: relative;
-    left: 150px;
-    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
-}
 
 
 li {
@@ -127,35 +118,23 @@ a.links:hover {
 
 /* Hero page styling */
 .container {
-    margin: 35%;
+   text-align: center;
+    color: #66FCF1;
+    padding: 300px 0px 900px 0px;
 }
-.jumbotron-fluid {
+/* .jumbotron-fluid {
     position: relative;
     right: 325px;
     bottom: 275px;
     color: #66FCF1;
-}
+} */
 
-
-.imageHeader {
-    padding: 80px;
-    /* height: 120px; */
-    background-image: url('https://media.istockphoto.com/vectors/blue-and-gold-abstract-minimal-geometric-background-abstract-hitech-vector-id1276890189?k=20&m=1276890189&s=612x612&w=0&h=jLZGeqUcsqw6t3xPXtsGJ8j094aAWmhGOaj7Kvm9p8k=');
-}
 
 
 
 /* this is styling for about me section */
-.aboutMe-container {
-       Display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding-bottom: 650px
-}
 
 #aboutme {
-    /* margin-left: 100px;
-    margin-bottom: 500px; */
     display: flex;
     justify-content: center;
     padding-bottom: 250px;
@@ -163,11 +142,29 @@ a.links:hover {
     color: #66FCF1;
 }
 
+
+.aboutMe-container {
+       Display: flex;
+       justify-content: space-evenly;
+       padding-bottom: 650px;
+}
+
+/* Image styling */
+.profilePic {
+    width: 334px;
+    height: 398px;
+    border-radius: 15px;
+    /* position: relative;
+    left: 150px; */
+    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
+}
+
+
 #contentx p {
     font-size: 25px;
     width: 924px;
     margin-right: 50px;
-    text-align: center;
+    /* text-align: center; */
     color: white;
 }
 
@@ -175,20 +172,12 @@ a.links:hover {
 
 /* This is styling for work section */
 #work {
-    position: relative;
-    top: 100px;
-    margin-left: 200px;
+    display: flex;
+    justify-content: center;
     font-size: 75px;
     color: #66FCF1;
 }
 
-.vertical {
-    border-left: 6px solid #66FCF1;
-    height: 32%;
-    position:absolute;
-    left: 35%;
-    margin-top: 20px;
-}
 
 .project-container {
     display: flex;
@@ -197,15 +186,56 @@ a.links:hover {
     align-items: center;
 }
 
-.title {
+#project1 {
+    display: flex;
+    align-self: flex-start;
+}
+
+#project2 {
+    display: flex;
+    align-self: flex-end;
+}
+
+#project3 {
+    display: flex;
+    align-self: flex-start;
+}
+
+/* .title {
     color: white;
     font-size: 30px;
     text-align: center;
     padding: 25px;
+} */
+
+
+/* positioning of project buttons */
+.greatDate {
+    padding: 25px;
+    height: fit-content;
 }
+
+.workDayPlanner {
+   padding: 25px;
+   height: fit-content;
+}
+
+.weatherDash {
+   padding: 25px;
+   height: fit-content;
+} 
+ 
+/* .techParagraph {
+    padding: 40px;
+    position: relative;
+    left: 230px;
+    color: white;
+} */
+
+
 /* separation of projects */
 article {
-    padding: 25px;
+    margin: 100px;
 }
 
 button {
@@ -220,59 +250,24 @@ button {
     border: 3px solid #66FCF1;
  }
 
- /* positioning of project buttons */
- .greatDate {
-     position: relative;
-     left: 600px;
-     bottom: 325px;
-     padding: 25px;
- }
-
- .workDayPlanner {
-    position: relative;
-    left: 600px;
-    bottom: 325px;
-    padding: 25px;
- }
-
- .weatherDash {
-    position: relative;
-    left: 600px;
-    bottom: 325px;
-    padding: 25px;
- } 
-  
- .techParagraph {
-     padding: 40px;
-     position: relative;
-     left: 230px;
-     color: white;
- }
-
 
  /* Styling for project pictures */
  .great-date {
-    width: 334px;
-    height: 398px;
+    width: 500px;
+    height: 400px;
     border-radius: 15px;
-    position: relative;
-    left: 150px;
  }
 
- .work-day {
-    width: 334px;
-    height: 398px;
+ .petConnect {
+    width: 500px;
+    height: 400px;
     border-radius: 15px;
-    position: relative;
-    left: 150px;
  }
 
  .weather-dash {
-    width: 334px;
-    height: 398px;
+    width: 500px;
+    height: 400px;
     border-radius: 15px;
-    position: relative;
-    left: 150px;
  }
 
 
@@ -334,7 +329,9 @@ button {
 /* for Media Queries */
 @media screen and (max-width: 428px) {
 .btn {
-   padding: 36px 38px;
+   padding: 50px 52px;
+   font-size: 50px;
+   margin: 5px;
 }
 
 .container {
@@ -405,8 +402,8 @@ button {
     left: 75px;
  }
   }
-
-  /* .work-day {
+/* 
+  .work-day {
 
   }
 
