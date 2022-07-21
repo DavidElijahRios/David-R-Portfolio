@@ -373,6 +373,8 @@ a.links:hover {
 
 .aboutMe-container {
     display:block;
+    position: relative;
+    right: 150px;
 }
 
 .profilePic {
@@ -429,20 +431,23 @@ article {
 .title1 {
     position: relative;
     bottom: 45px;
-    left: 145px;
+    left: 16px;
+    text-align: center;
 }
 
 .title2 {
    position: relative;
    bottom: 45px;
-   left: 145px;
+   left: 16px;
+    text-align: center;
 }
 
 
 .title3 {
     position: relative;
     bottom: 45px;
-    left: 145px;
+    left: 16px;
+    text-align: center;
 }
 /* Project buttons */
 .project1 {
