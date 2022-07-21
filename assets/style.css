@@ -12,6 +12,20 @@ body {
 
 
 
+
+/* =================================================================== */
+/* Hero page styling */
+.container {
+    text-align: center;
+     color: #66FCF1;
+     padding: 300px 0px 900px 0px;
+ }
+
+
+
+
+
+/* =================================================================== */
 /* Side navigation  */
 .sidenav {
     height: 100%; 
@@ -72,68 +86,13 @@ body {
 
 
 
-/* This is styling for header section*/
-/* header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    background-color: #282828;
-    line-height: 25px;
-    
-} */
-
-
-
-li {
-    display: inline-flex;
-}
-
-a.links {
-    padding: 12px;
-}
-
-a.links:link {
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-decoration-color: #66FCF1;
-    color: white;
-
-}
-
-a.links:visited {
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-decoration-color: #66FCF1;
-    color: white;
-}
-
-a.links:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #66FCF1;
-    color: #66FCF1;
-    cursor: pointer;
-    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
-}
-
-/* Hero page styling */
-.container {
-   text-align: center;
-    color: #66FCF1;
-    padding: 300px 0px 900px 0px;
-}
-/* .jumbotron-fluid {
-    position: relative;
-    right: 325px;
-    bottom: 275px;
-    color: #66FCF1;
-} */
 
 
 
 
+
+/* =================================================================== */
 /* this is styling for about me section */
-
 #aboutme {
     display: flex;
     justify-content: center;
@@ -149,7 +108,7 @@ a.links:hover {
        padding-bottom: 650px;
 }
 
-/* Image styling */
+/* head shot styling */
 .profilePic {
     width: 334px;
     height: 398px;
@@ -159,7 +118,7 @@ a.links:hover {
     box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
 }
 
-
+/* about me bio */
 #contentx p {
     font-size: 25px;
     width: 924px;
@@ -170,12 +129,17 @@ a.links:hover {
 
 
 
+
+
+
+/* =================================================================== */
 /* This is styling for work section */
 #work {
     display: flex;
     justify-content: center;
     font-size: 75px;
     color: #66FCF1;
+    margin-bottom: 200px;
 }
 
 
@@ -189,48 +153,79 @@ a.links:hover {
 #project1 {
     display: flex;
     align-self: flex-start;
+    margin-bottom: 300px;
 }
 
 #project2 {
     display: flex;
     align-self: flex-end;
+    margin-bottom: 300px;
 }
 
 #project3 {
     display: flex;
     align-self: flex-start;
+    margin-bottom: 300px;
 }
 
-/* .title {
+.title1 {
     color: white;
     font-size: 30px;
-    text-align: center;
-    padding: 25px;
-} */
+    position: relative;
+    bottom: 75px;
+    left: 200px;
+}
 
+.title2 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+    left: 200px;
+}
+
+.title3 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+    left: 300px;
+}
 
 /* positioning of project buttons */
-.greatDate {
-    padding: 25px;
+.project1 {
+    padding: 20px;
     height: fit-content;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    margin-left: 15px;
 }
 
-.workDayPlanner {
-   padding: 25px;
-   height: fit-content;
+.project2 {
+    padding: 20px;
+    height: fit-content;
+    position: relative;
+    top: 150px;
+    margin-left: 15px;
 }
 
-.weatherDash {
-   padding: 25px;
-   height: fit-content;
+.project3 {
+    padding: 20px;
+    height: fit-content;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    margin-left: 15px;
 } 
  
-/* .techParagraph {
+.techParagraph {
     padding: 40px;
     position: relative;
-    left: 230px;
+    right: 230px;
+    top: 380px;
     color: white;
-} */
+}
 
 
 /* separation of projects */
@@ -271,6 +266,36 @@ button {
  }
 
 
+
+
+
+
+ /* =================================================================== */
+ /* This is styling for Resume section */
+#resume {
+    display: flex;
+    justify-content: center;
+    padding-top: 450px;
+    color: #66FCF1;
+    font-size: 50px;
+}
+
+.resume-download {
+    position: relative;
+    left: 515px;
+    top: 150px;
+    margin-left: 50px;
+    padding: 25px;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+/* =================================================================== */
 /* this is styling for contact me section and contact me links */
 #contactme {
     display: flex;
@@ -289,27 +314,27 @@ button {
  }
 
 
+/* This is styling for links section*/
 
- /* This is styling for Resume section */
-#resume {
-    display: flex;
-    justify-content: center;
-    padding-top: 450px;
-    color: #66FCF1;
-    font-size: 50px;
+li {
+    display: inline-flex;
 }
 
-.resume-download {
-    position: relative;
-    left: 661px;
-    top: 150px;
-    padding: 50px;
-    font-size: 30px;
-
+a.links:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #66FCF1;
+    color: #66FCF1;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 #66FCF1, 0 17px 50px 0 #66FCF1;
 }
 
  
 
+
+
+
+/* =================================================================== */
  /* Styling for footer */
  footer {
     display:flex;
@@ -325,6 +350,11 @@ button {
 
 
 
+
+
+/* =================================================================== */
+/* =================================================================== */
+/* =================================================================== */
 
 /* for Media Queries */
 @media screen and (max-width: 428px) {

@@ -1,22 +1,22 @@
 // Variables I will need for selecting certain areas of portfolio and appending 
 // to this area if needed.
-const greatDate = document.querySelector(".greatDate");
-const workDayPlanner = document.querySelector(".workDayPlanner");
-const weatherDash = document.querySelector(".weatherDash");
+const project1 = document.querySelector(".project1");
+const project2 = document.querySelector(".project2");
+const project3 = document.querySelector(".project3");
 const loading = document.querySelector('body');
 
 
 // Event listeners for user button clicks to go to projects/websites
-greatDate.addEventListener("click", function() {
-    location.href = "https://haleyhilton.github.io/No-Clue-What-To-Do/";
+project1.addEventListener("click", function() {
+  window.open("https://haleyhilton.github.io/No-Clue-What-To-Do/", "_blank");
 });
 
-workDayPlanner.addEventListener("click", function() {
-    location.href = "https://davidelijahrios.github.io/Work-Day-Scheduler/";
+project2.addEventListener("click", function() {
+  window.open("https://thepetconnection.herokuapp.com/", "_blank");
 });
 
-weatherDash.addEventListener("click", function() {
-    location.href = "https://davidelijahrios.github.io/Weather-Dashboard/";
+project3.addEventListener("click", function() {
+  window.open("https://davidelijahrios.github.io/Weather-Dashboard/", "_blank");
 });
 
 // function for loading screen for portfolio page
