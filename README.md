@@ -19,7 +19,7 @@ N/A
 ## Usage
 
 
-![alt text](./Images/127.0.0.1_5500_index.html.png)
+![alt text](/Images/portfolioscreenshot.png)
 
 
 ## Credits
