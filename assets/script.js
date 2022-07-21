@@ -3,6 +3,9 @@
 const project1 = document.querySelector(".project1");
 const project2 = document.querySelector(".project2");
 const project3 = document.querySelector(".project3");
+const gitHub1 = document.querySelector('#gitHub1');
+const gitHub2 = document.querySelector('#gitHub2');
+const gitHub3 = document.querySelector('#gitHub3');
 const loading = document.querySelector('body');
 
 
@@ -16,11 +19,22 @@ project2.addEventListener("click", function() {
 });
 
 project3.addEventListener("click", function() {
-  window.open("https://davidelijahrios.github.io/Weather-Dashboard/", "_blank");
+  window.open("https://rocky-tor-24531.herokuapp.com/", "_blank");
 });
 
 
-// TODO: Give functionality to github button on portfolio
+// functionality to github button on portfolio
+gitHub1.addEventListener("click", function() {
+  window.open("https://github.com/DavidElijahRios/No-Clue-What-To-Do", "_blank");
+});
+
+gitHub2.addEventListener("click", function() {
+  window.open("https://github.com/DavidElijahRios/P2-Petconnect", "_blank");
+});
+
+gitHub3.addEventListener("click", function() {
+  window.open("https://github.com/DavidElijahRios/The-Tech-Blog", "_blank");
+})
 
 // function for loading screen for portfolio page
 
