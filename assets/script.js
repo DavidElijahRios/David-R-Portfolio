@@ -19,6 +19,9 @@ project3.addEventListener("click", function() {
   window.open("https://davidelijahrios.github.io/Weather-Dashboard/", "_blank");
 });
 
+
+// TODO: Give functionality to github button on portfolio
+
 // function for loading screen for portfolio page
 
 // function for toggler navbar
