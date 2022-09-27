@@ -11,11 +11,11 @@ const loading = document.querySelector('body');
 
 // Event listeners for user button clicks to go to projects/websites
 project1.addEventListener("click", function() {
-  window.open("https://haleyhilton.github.io/No-Clue-What-To-Do/", "_blank");
+  window.open("https://thepetconnect.herokuapp.com/", "_blank");
 });
 
 project2.addEventListener("click", function() {
-  window.open("https://thepetconnection.herokuapp.com/", "_blank");
+  window.open("https://haleyhilton.github.io/No-Clue-What-To-Do/", "_blank");
 });
 
 project3.addEventListener("click", function() {
@@ -25,11 +25,11 @@ project3.addEventListener("click", function() {
 
 // functionality to github button on portfolio
 gitHub1.addEventListener("click", function() {
-  window.open("https://github.com/DavidElijahRios/No-Clue-What-To-Do", "_blank");
+  window.open("https://github.com/haleyhilton/P3-PetConnect", "_blank");
 });
 
 gitHub2.addEventListener("click", function() {
-  window.open("https://github.com/DavidElijahRios/P2-Petconnect", "_blank");
+  window.open("https://github.com/DavidElijahRios/No-Clue-What-To-Do", "_blank");
 });
 
 gitHub3.addEventListener("click", function() {

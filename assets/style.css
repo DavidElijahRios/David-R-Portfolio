@@ -424,8 +424,8 @@ article {
 
 .techParagraph {
     position: relative;
-    left: 100px;
     top: 0;
+    padding-left: 332px;
 }
 /* Title headers */
 .title1 {
